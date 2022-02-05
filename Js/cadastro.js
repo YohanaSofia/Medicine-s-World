@@ -30,7 +30,7 @@ let login = false;
     }
        else{
        navigator.vibrate(500);
-       window.location.href = "Perfil.html"; 
+       window.location.href = "https://yohanasofia.github.io/Medicine-s-World/Perfil.html"; 
        localStorage.setItem('Nome-do-usuario', inputNomeEl.value);
        localStorage.setItem('Email-do-usuario', inputEmailEl.value);
        localStorage.setItem('Senha-do-usuario', inputSenhaEl.value);
