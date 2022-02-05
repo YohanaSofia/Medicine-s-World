@@ -1,0 +1,479 @@
+@font-face {
+    font-family: "Christmas Rockstar";
+    src: url('../Fontes/Christmas\ Rockstar.ttf');
+}
+
+@font-face {
+    font-family: "lesthary";
+    src: url('../Fontes/lesthary.otf');
+}
+
+@font-face {
+    font-family: "barlley";
+    src: url('../Fontes/love\ barlley.ttf');
+}
+
+@font-face {
+    font-family: "Mundane";
+    src: url('../Fontes/MundaneNouveau.otf');
+}
+
+@font-face {
+    font-family: "Aes";
+    src: url('../Fontes/Aesthetic\ Violet.otf');
+}
+
+@font-face {
+    font-family: "Ama";
+    src: url('../Fontes/Amanise.ttf');
+}
+
+body,
+html {
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    background-color: rgb(196, 181, 211) !important;
+    height: 100%;
+}
+
+nav {
+    background-color: rgb(134, 107, 161);
+    padding: 3px;
+    margin-bottom: 4%;
+}
+
+nav li,
+nav h2,
+nav div {
+    display: inline-block;
+    color: white;
+}
+
+nav li {
+    padding-left: 5%;
+    font-size: 3ex;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ul {
+    list-style: none;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(78, 54, 102);
+    text-decoration: overline;
+}
+
+nav a:hover {
+    color: rgb(24, 42, 65);
+    text-decoration: overline;
+}
+
+#NomeSite {
+    font-family: "barlley", monospace;
+    font-size: 170%;
+    padding-right: 10%;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+
+#NomeSite:hover {
+    transform: scale(1.2);
+}
+
+.Titulo {
+    font-size: 3em;
+    margin-left: 25%;
+}
+
+main {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 2px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(149, 136, 163);
+}
+
+::-webkit-scrollbar-thumb {
+    background: white;
+    opacity: 0.5;
+}
+
+.foto {
+    flex-direction: row;
+    width: 350px;
+    height: 350px;
+    padding-left: 55px;
+}
+
+.fundo-roxo {
+    background-color: white;
+    width: 30em;
+    height: 5em;
+    position: absolute;
+    top: 15%;
+    left: 8%;
+    opacity: 0.5;
+}
+
+img[alt="Yang"] {
+    width: 45%;
+    display: block;
+    margin-left: auto;
+    margin-right: 5%;
+}
+
+.fundo-redondo {
+    background-color: rgb(35, 18, 53);
+    width: 15em;
+    height: 15em;
+    position: absolute;
+    border-radius: 50%;
+    left: 190%;
+}
+
+main p {
+    font-size: 20px;
+    font-family: 'Licorice' cursive;
+    opacity: 0.8;
+}
+
+.direita {
+    margin-left: 4%;
+    margin-right: 55%;
+    position: absolute;
+    top: 35%;
+    left: 2%;
+}
+
+.esquerda {
+    position: absolute;
+    top: 125%;
+    left: 55%;
+}
+
+.esquerda li {
+    position: absolute;
+    top: 140%;
+    left: 55%;
+    font-size: 40%;
+}
+
+#home-2 h1 {
+    text-align: right;
+    margin-right: 20%;
+    padding-top: 6%;
+}
+
+#borda-1 {
+    border: 2px solid black;
+    width: 20em;
+    height: 10em;
+    opacity: 0.4;
+    position: absolute;
+}
+
+img[alt="lex"] {
+    width: 50%;
+    height: 30%;
+}
+
+.titulo-2 {
+    font-size: 60px;
+    font-family: "Christmas Rockstar", cursive;
+    text-align: center;
+    margin-bottom: 3%;
+    transition-property: color;
+    transition-duration: 4s;
+}
+
+.titulo-2:hover {
+    color: rgb(254, 254, 255);
+}
+
+footer {
+    background-color: white;
+    padding: 2px;
+}
+
+footer h1 {
+    color: rgb(47, 23, 75);
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.div-principal {
+    border: rgb(78, 54, 102) 1px solid;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.div-principal h1 {
+    margin-top: 10px;
+    font-family: 'lesthary';
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.login body {
+    background-image: linear-gradient(0deg, rgb(209, 169, 252), rgb(86, 65, 141), rgb(47, 23, 75));
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Login-NomeSite {
+    font-size: 70px;
+    font-family: 'barlley';
+    padding-top: 2%;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.div-principal p {
+    text-align: center;
+}
+
+.div-principal button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: rgb(96, 71, 124) 1px solid;
+    padding: 5px;
+    color: rgb(96, 71, 124);
+    width: 100%;
+}
+
+.div-principal button:hover {
+    background-color: rgb(73, 52, 97);
+    color: white;
+}
+
+#entrar img {
+    position: absolute;
+    top: 2%;
+    right: 3%;
+    width: 6%;
+    height: 10%;
+}
+
+#entrar img:hover {
+    cursor: pointer;
+}
+
+img[alt="img-perfil"],
+.perfil {
+    border-radius: 50%;
+    width: 35%;
+    height: 35%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+img[alt="perfil"] {
+    animation: flutuando .4s ease-in-out 0s infinite alternate;
+}
+
+@keyframes flutuando {
+    from {
+        top: 0;
+    }
+    to {
+        top: 10px;
+    }
+}
+
+#Colunas {
+    display: flex;
+    width: 100%;
+}
+
+.coluna-1 {
+    width: 70%;
+}
+
+.coluna-2 {
+    width: 30%;
+    margin-top: 15%;
+    margin-bottom: 2%;
+    /* background-color: white;
+    border: rgb(88, 63, 116) 2px solid;
+    margin-bottom: 2%; */
+}
+
+.coluna-2 h1 {
+    font-family: "Aes";
+    font-size: 39px;
+    text-align: center;
+}
+
+.coluna-2 h2 {
+    font-family: "lesthary";
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20% !important;
+    margin-top: 4% !important;
+}
+
+.coluna-1 li {
+    font-family: 'Licorice' cursive;
+    opacity: 0.8;
+    font-size: 19px;
+    list-style: inside;
+}
+
+img[alt="img-credito"] {
+    width: 50%;
+    height: 10%;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h5 {
+    font-family: "Ama";
+    font-size: 42px;
+}
+
+div h5 {
+    font-size: 30px !important;
+}
+
+main div {
+    margin-bottom: 1%;
+}
+
+.card-body a {
+    background-color: rgb(78, 54, 102);
+}
+
+.quizz {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.Home {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 70%;
+    margin-top: 5%;
+}
+
+img[alt="Yang-home"] {
+    height: 50%;
+    padding: 4%;
+}
+
+.coluna-1 h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#Info {
+    background-color: white !important;
+    margin-bottom: 4% !important;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 3%;
+}
+
+#Info h1 {
+    font-family: "Christmas Rockstar", cursive !important;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.alert-erro {
+    padding-left: 2%;
+    color: white;
+    border: rgb(35, 18, 53) 0.5px solid;
+    background-color: rgb(82, 60, 105);
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.alertResposta {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 3%;
+    padding-right: 3%;
+    color: white;
+    border: rgb(140, 187, 140) 0.5px solid;
+    background-color: rgb(79, 138, 92);
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+.h1Alert {
+    text-align: center;
+    color: white;
+    font-size: 3em;
+    font-family: "Mundane", monospace;
+    margin-top: 3%;
+}
+
+img[alt="img-Logado"] {
+    border-radius: 50%;
+    width: 15%;
+    height: 15%;
+    display: block;
+    margin-left: 140%;
+    position: relative;
+}
+
+img[alt="img-Logado"] {
+    animation: flutuando .4s ease-in-out 0s infinite alternate;
+}
+
+#sair{
+  color: white !important;
+  background-color: rgb(73, 52, 97);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+}
+#sair:hover{
+    background-color: rgb(196, 181, 211);
+    color: rgb(73, 52, 97) !important;
+}
+.easter{
+  height: 110%;
+  background-image: linear-gradient(0deg,  #b7cfd9, white,#397287);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.nav-easter{
+    background-color: #397287!important;
+    color: white;
+}
+.easter-footer h1{
+    color: #397287;
+}
+.easter-button{
+    background-color: #397287!important;
+    color: white;
+}

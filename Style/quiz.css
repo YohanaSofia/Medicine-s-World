@@ -1,0 +1,52 @@
+@font-face {
+    font-family: "MundaneNouveau";
+    src: url('../Fontes/MundaneNouveau.otf');
+}
+
+@font-face {
+    font-family: "Muthiara demo version";
+    src: url('../Fontes/Muthiara demo version.otf');
+}
+
+ main {
+    background-color: white;
+    padding-top: 0px;
+    padding-right: 2%;
+    padding-left: 3%;
+    margin-top: 5px;
+    padding-bottom: 1% !important;
+}
+
+html, body{
+    background-color: rgb(47, 23, 75) !important;  
+    margin-bottom: 0.25rem  !important;
+}
+
+img[alt="1"] {
+    width: 30%;
+    height: 40%;
+}
+
+ #enviar{
+  background-color:  rgb(43, 23, 65) !important;
+  color: white;
+  display: block;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}  
+#enviar:hover{
+  background-color:  rgb(185, 167, 204) !important;
+}
+#titulo-Grey{
+  font-family: "Muthiara demo version";
+  text-align: center;
+  padding-top: 40px;
+  font-size:  40px;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+#perguntas h1{
+  font-size: 20px;
+  margin-top: 4%;
+} 

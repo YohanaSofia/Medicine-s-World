@@ -1,0 +1,81 @@
+@font-face {
+    font-family: "Lemon Tuesday";
+src: url('../Fontes/Lemon Tuesday.otf');
+}
+
+body,
+html {
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    background: rgb(33, 13, 59) !important;
+}
+
+nav li:hover{
+    text-decoration: underline;
+    color: rgb(47, 23, 80);
+}
+body:hover{
+    color: rgb(255, 255, 255);
+}
+
+nav li,
+nav h2,
+nav div {
+    display: inline-block;
+    color: white;
+    text-align: center;
+}
+
+nav li {
+    padding-left: 5%;
+    font-size: 3ex;
+    position: absolute;
+}
+
+ul {
+    list-style: none
+}
+
+img[alt="index"] {
+    height: 100%;
+    position: absolute;
+    top: 0%;
+}
+
+h1 {
+  display: inline;
+    font-family:  "Lemon Tuesday";
+    color: rgb(255, 255, 255);
+    position: absolute;
+    right: 5%;
+    top: 30%;
+    font-size: 100px;
+    animation: flutuando .4s ease-in-out 0s infinite alternate;  
+}
+@keyframes flutuando {
+    from{ 
+        top: 35%;     
+}
+    to{ 
+        top: 30%; 
+    }
+}
+
+
+#quizes {
+    position: absolute;
+    top: 10%;
+    left: 48em;
+    color: white;
+    text-decoration: none;
+}
+
+#home {
+    position: absolute;
+    top: 10%;
+    left: 38em;
+    color: white;
+    text-decoration: none;
+
+} 
